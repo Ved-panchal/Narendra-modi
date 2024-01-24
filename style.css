@@ -191,10 +191,17 @@ a{
     height: 30vw;
 
 }
+.modi_parent{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
 
 .modi{
-    margin-top: -11.9rem;
-    position: relative;
+    margin-top: -10rem;
+    /* position: absolute; */
+    left: 3rem;
+    right: 20px;
     display: flex;
     overflow: hidden;
     flex-direction: row-reverse;
@@ -207,11 +214,12 @@ a{
     width: 77.7vw;
     z-index: 99;
 }
+  
+
 .quotation_img{
     height: 15rem;
     padding-right: 3rem;
     margin-top: 70px;
-    
     z-index: -1;
    
 }
@@ -252,19 +260,21 @@ a{
 }
 
 .modi > .Shri {
-    position: absolute;
+    /* position: absolute; */
+    margin-left: 32rem;
+    margin-top: 5rem;
     font-weight: 500;
     left: 32rem;
-    top: 6rem;
+    bottom: 1rem;
 }
 
 .modi_img {
     height: 15rem;
-    width: 20rem;
-    left: 325px;
-    top : 40.45rem;
-    z-index: 99;
     position: absolute;
+    width: 20rem;
+    z-index: 99;
+    margin-top: -15.52rem;
+    left: 3.5rem;
 }
 
 .modi_img > img {
