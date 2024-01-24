@@ -1,0 +1,43 @@
+:root {
+
+/* Colors: */
+--unnamed-color-237fcf: #237FCF;
+--unnamed-color-db9b07: #DB9B07;
+--unnamed-color-f58216: #F58216;
+--unnamed-color-1b2f68: #1B2F68;
+--unnamed-color-ffb433: #FFB433;
+--unnamed-color-1d4382: #1D4382;
+--unnamed-color-04a559: #04A559;
+--unnamed-color-3d260f: #3D260F;
+--unnamed-color-563d87: #563D87;
+--unnamed-color-4d50aa: #4D50AA;
+--unnamed-color-414485: #414485;
+--unnamed-color-d83039: #D83039;
+--unnamed-color-f86933: #F86933;
+--unnamed-color-f84e33: #F84E33;
+--unnamed-color-aaaaaa: #AAAAAA;
+--unnamed-color-cccccc: #CCCCCC;
+--unnamed-color-848484: #848484;
+--unnamed-color-646464: #646464;
+--unnamed-color-323232: #323232;
+--unnamed-color-ffffff: #FFFFFF;
+
+/* Font/text values */
+--unnamed-font-family-poppins: Poppins;
+--unnamed-font-style-normal: normal;
+--unnamed-font-weight-normal: normal;
+--unnamed-font-size-8: 8px;
+--unnamed-character-spacing-0: 0px;
+--unnamed-line-spacing-8: 8px;
+}
+
+/* Character Styles */
+.unnamed-character-style-1 {
+font-family: var(--unnamed-font-family-poppins);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-8);
+line-height: var(--unnamed-line-spacing-8);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-848484);
+}
